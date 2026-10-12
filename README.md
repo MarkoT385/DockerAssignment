@@ -56,6 +56,10 @@ docker run -d -p 3000:3000 my-node-app
 Virtual Machines run their own compleate Operating System on top of virtual hardware, so VMs are usually quite large, gygabites in size, and take a long time to boot up. Docker containers on te other hand use the same OS as the host machine, so they are much smaller than VMs and take much less thime to start up. Each Docker cntainer only packages the app and its dependencies. 
 Docker Containers a re a better option for deploying because they define the exact enviroment, so it shoulld work on any machine. They are also much more efficient that VMs as they can run on the same server using less resources, and they start almost instantly unlike VMs. Another reason why a development team might use this way of deploying applications is a simple setup, as a potential new team member would only need Docker, not Node or any other tools. 
 
+## Screenshots of a working application and API Status
+![Alt text](Images/Screenshot1.png)
+![Alt text](Images/Screenshot2.png)
+![Alt text](Images/Screenshot3.png)
 
 
 ## Application Requirements for Docker
