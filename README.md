@@ -57,9 +57,15 @@ Virtual Machines run their own compleate Operating System on top of virtual hard
 Docker Containers a re a better option for deploying because they define the exact enviroment, so it shoulld work on any machine. They are also much more efficient that VMs as they can run on the same server using less resources, and they start almost instantly unlike VMs. Another reason why a development team might use this way of deploying applications is a simple setup, as a potential new team member would only need Docker, not Node or any other tools. 
 
 ## Screenshots of a working application and API Status
-![Alt text](Images/Screenshot1.png)
-![Alt text](Images/Screenshot2.png)
-![Alt text](Images/Screenshot3.png)
+
+### Screenshot of a working app
+![Screenshot of a working app](Images/Screenshot1.png)
+
+### Screenshot of a API response
+![Screenshot of a API response](Images/Screenshot2.png)
+
+### Screenshot of a  start, stop, and delete containers using docker commands
+![Screenshot of a  start, stop, and delete containers using docker commands](Images/Screenshot3.png)
 
 
 ## Application Requirements for Docker
